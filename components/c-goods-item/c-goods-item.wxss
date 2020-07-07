@@ -1,0 +1,11 @@
+/* components/c-goods-item/c-goods-item.wxss */
+.image-box{
+  padding: 10rpx;
+  text-align: center;
+  /* box-sizing: border-box; */
+  /* flex: 1; */
+}
+.image{
+  width: 47vw;
+  border-radius: 10rpx;
+}

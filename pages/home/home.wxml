@@ -1,5 +1,10 @@
 <!--pages/home/home.wxml-->
 <c-swiper images="{{banners}}" />
-<c-recommend recommends="{{recommends}}" />
+<c-recommend recommends="{{recommends}}" bind:imageLoad="handleImageLoaded" />
 <c-popimg />
-<c-tab-control titles="{{['流行', '新款', '精选']}}" bind:tabclick="handleTabClick" />
+
+<c-tab-control id="tab-control" class="{{isFied ? 'fixed':''}}" titles="{{titles}}" bind:tabclick="handleTabClick" />
+<c-tab-control wx:if="{{isFied}}" titles="{{titles}}" bind:tabclick="handleTabClick" />
+
+<c-goods goods="{{ goods[currentType].list }}" />
+<c-back-top wx:if="{{isShow}}" />

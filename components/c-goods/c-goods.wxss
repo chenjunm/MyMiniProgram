@@ -1,0 +1,6 @@
+/* components/c-goods/c-goods.wxss */
+.image-boxs{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

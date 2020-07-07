@@ -1,0 +1,9 @@
+<!--components/c-goods-item/c-goods-item.wxml-->
+<view class="image-box">
+	<view>
+		<image src="{{item.image}}" class="image" mode="widthfix" />
+	</view>
+	<view>
+		{{item.title}}
+	</view>
+</view>

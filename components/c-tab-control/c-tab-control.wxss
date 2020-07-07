@@ -1,6 +1,10 @@
 /* components/c-tab-control/c-tab-control.wxss */
 .tabbar-control{
   display: flex;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 20rpx solid #eee;
+  background-color: #fff;
 }
 .tabbar-item{
   flex: 1;
@@ -15,5 +19,5 @@
   padding: 20rpx;
 }
 .active .line-bottom{
-  border-bottom: 1rpx solid #009c9c;
+  border-bottom: 6rpx solid #009c9c;
 }
