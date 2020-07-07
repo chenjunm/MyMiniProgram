@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<c-swiper images="{{banners}}" />
+<c-recommend recommends="{{recommends}}" />
+<c-popimg />
+<c-tab-control titles="{{['流行', '新款', '精选']}}" bind:tabclick="handleTabClick" />

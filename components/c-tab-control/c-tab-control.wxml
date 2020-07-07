@@ -1,0 +1,11 @@
+<!--components/c-tab-control/c-tab-control.wxml-->
+<view class="tabbar-control">
+  <block wx:for="{{titles}}" wx:key="index">
+    <view 
+    class="tabbar-item {{currentIndex == index ? 'active' : ''}}" 
+    data-index = "{{index}}" 
+    bind:tap="selectActive" >
+      <text class="line-bottom">{{item}}</text>
+    </view>
+  </block>
+</view>

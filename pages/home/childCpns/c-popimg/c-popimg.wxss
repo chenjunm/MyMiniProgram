@@ -1,0 +1,4 @@
+/* pages/home/childCpns/c-popimg/c-popimg.wxss */
+.image-style{
+  width: 100%;
+}

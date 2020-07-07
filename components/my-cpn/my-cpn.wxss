@@ -1,0 +1,25 @@
+/* pages/mycpn/my-cpn.wxss */
+.my_cpn{
+  width: 100vw;
+  height: 100rpx;
+  line-height: 100rpx;
+  box-sizing: border-box;
+  /* border: 1px solid #008c8c; */
+  display: flex;
+}
+
+.tes{
+  flex: 1;
+  text-align: center;
+}
+
+.active{
+  color: pink;
+}
+/* .active text{
+  border-bottom: 6rpx solid pink;
+} */
+
+.active .bt{
+  border-bottom: 6rpx solid pink;
+}

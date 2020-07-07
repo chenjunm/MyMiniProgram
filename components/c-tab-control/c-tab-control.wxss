@@ -1,0 +1,19 @@
+/* components/c-tab-control/c-tab-control.wxss */
+.tabbar-control{
+  display: flex;
+}
+.tabbar-item{
+  flex: 1;
+  text-align: center;
+}
+.active{
+  color: #008c8c;
+}
+
+.line-bottom{
+  
+  padding: 20rpx;
+}
+.active .line-bottom{
+  border-bottom: 1rpx solid #009c9c;
+}

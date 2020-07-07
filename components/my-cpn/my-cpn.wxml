@@ -1,0 +1,10 @@
+<!--pages/mycpn/my-cpn.wxml-->
+<view class="my_cpn">
+	<block wx:for="{{titles}}" wx:key="index">
+    <view class="tes {{currentIndex == index ? 'active' : ''}}" 
+       data-index = "{{index}}" bindtap="selectClick"
+    >
+      <text class="bt">{{item}}</text>
+    </view>
+  </block>
+</view>

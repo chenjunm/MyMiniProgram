@@ -1,0 +1,6 @@
+<!--pages/home/childCpns/c-popimg/c-popimg.wxml-->
+<view class="pop-image">
+  <image src="/assets/home/recommend_bg.jpg"
+    class="image-style"
+   mode="widthfix"></image>
+</view>
